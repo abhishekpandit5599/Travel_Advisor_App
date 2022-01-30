@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   useEffect(() =>{
-    const filterPlaces = places.filter((places) => Number(places.rating) >= rating);
+    const filterPlaces = places ? places.filter((places) => Number(places.rating) >= rating) : '';
     setFilterPlaces(filterPlaces);
   },[rating,places]);
 
