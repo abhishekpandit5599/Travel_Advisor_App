@@ -1,0 +1,24 @@
+.placeicon{
+    font-family: fontawesome;
+}
+.map-card-container img{
+    width: 100%;
+}
+.map-card-container h4{
+    margin: 8px 0px;
+    text-align: center;
+}
+.map-card-container{
+    padding: 10px;
+    background-color: white;
+    width: 120px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 480px){
+    .map-container{
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgb(80, 80, 199);
+}
+.search-box-div,.logo-brand,.search-box-div h5{
+    display: inline-block;
+}
+.logo-brand{
+    margin-left: 10px;
+    color: white;
+}
+.logo-brand h4{
+    float: left;
+    padding: 10px;
+}
+.search-box-div{
+    float: right;
+    margin-right: 40px;
+}
+.search-box-div h5{
+    margin-right: 20px;
+    color: white;
+}
+.search-box-div input{
+    padding: 5px;
+    border-radius: 10px;
+}
+button{
+    padding: 3px;
+    border-radius: 5px;
+}
+.input{
+    display: inline-block;
+}
+
+@media screen and (max-width: 480px){
+    .search-box-div h5{
+        display: none;
+    }
+    .search-box-div input{
+        width: 100px;
+    }
+}

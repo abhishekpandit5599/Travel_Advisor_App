@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.partition{
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+  grid-template-rows: auto;
+}
+@media screen and (max-width: 480px){
+  .partition{
+    grid-template-columns: 100vw;
+  }
+}

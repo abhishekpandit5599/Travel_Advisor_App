@@ -1,0 +1,17 @@
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.selection{
+    margin: 10px;
+    text-align: center;
+}
+.listDetails-container{
+    height: 75vh;
+    padding: 20px 10px;
+    overflow: scroll;
+}
+.indiviual-places{
+    margin: 5px ;
+}
